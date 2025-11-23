@@ -1,5 +1,5 @@
-
 import logging
+
 
 class LogObfuscator(logging.Filter):
     def __init__(self, keywords):

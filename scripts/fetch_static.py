@@ -8,21 +8,25 @@ import logging
 URL = "https://gtfs-static.translink.ca/gtfs/google_transit.zip"
 BASE_OUTPUT_DIR = "data/raw/static"
 
+
 def init_logging(now):
     logger = logging.getLogger("Static")
     logger.setLevel(logging.INFO)
     fh = logging.FileHandler(f"data/runs/static_{now}.log")
     fh.setLevel(logging.INFO)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     fh.setFormatter(formatter)
     logger.addHandler(fh)
     return logger
+
 
 def run(timestamp=None):
     now = timestamp or datetime.now().strftime("%Y-%m-%dT%H-%M")
     logger = init_logging(now)
     output_dir = os.path.join(BASE_OUTPUT_DIR, f"gtfs_static_{now}")
-    
+
     try:
         os.makedirs(output_dir, exist_ok=True)
         logger.info(f"Created output directory: {output_dir}")
@@ -47,6 +51,6 @@ def run(timestamp=None):
         logger.error(f"Unexpected error: {e}")
         raise
 
+
 if __name__ == "__main__":
     run()
-

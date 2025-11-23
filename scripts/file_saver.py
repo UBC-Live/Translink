@@ -4,6 +4,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Any, Dict, List, Union
 
+
 class FileSaver:
     def __init__(self, base_dir: Union[str, Path], timestamp: str = None):
         self.timestamp = timestamp or datetime.now().strftime("%Y-%m-%dT%H-%M")

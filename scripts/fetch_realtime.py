@@ -11,6 +11,7 @@ from utils import LogObfuscator
 
 load_dotenv()
 
+
 class RealtimeFetcher(ABC):
     def __init__(self, endpoint, now, raw_dir, clean_dir, timeout=5, session=None):
         self._init_logger(now)
@@ -20,16 +21,18 @@ class RealtimeFetcher(ABC):
 
         self.raw_file_saver = FileSaver(raw_dir, now)
         self.clean_file_saver = FileSaver(clean_dir, now)
-    
+
     def _init_logger(self, now):
         self.logger = logging.getLogger(self.__class__.__name__)
         self.logger.setLevel(logging.INFO)
         fh = logging.FileHandler(f"data/runs/realtime_{now}.log")
         fh.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(
+            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        )
         fh.setFormatter(formatter)
         ch = logging.StreamHandler()
-        ch.addFilter(LogObfuscator([os.getenv('TRANSLINK_API_KEY')]))
+        ch.addFilter(LogObfuscator([os.getenv("TRANSLINK_API_KEY")]))
         self.logger.addHandler(fh)
         self.logger.addHandler(ch)
 
@@ -44,7 +47,7 @@ class RealtimeFetcher(ABC):
     @abstractmethod
     def save_clean(self, feed):
         pass
-    
+
     def fetch_raw(self):
         try:
             self.logger.info(f"Fetching from f{self.endpoint}")
@@ -58,7 +61,7 @@ class RealtimeFetcher(ABC):
         except requests.exceptions.HTTPError as e:
             self.logger.error(
                 f"HTTP error {e.response.status_code} while fetching feed: {e}",
-                exc_info=True
+                exc_info=True,
             )
             raise
         except requests.exceptions.ConnectionError as e:
@@ -88,88 +91,107 @@ class PositionsFetcher(RealtimeFetcher):
 
     def __init__(self, session, now=None, timeout=5):
         endpoint = f"https://gtfsapi.translink.ca/v3/gtfsposition?apikey={os.getenv('TRANSLINK_API_KEY')}"
-        super().__init__(endpoint,
-                         raw_dir="data/raw/realtime/position_updates",
-                         clean_dir="data/clean/realtime/position_updates",
-                         now=now,
-                         timeout=timeout,
-                         session=session)
+        super().__init__(
+            endpoint,
+            raw_dir="data/raw/realtime/position_updates",
+            clean_dir="data/clean/realtime/position_updates",
+            now=now,
+            timeout=timeout,
+            session=session,
+        )
 
     def to_clean_dict(self, feed):
         positions = []
         for entity in feed.entity:
             if not entity.HasField("vehicle"):
                 continue
-            
+
             v = entity.vehicle
 
-            positions.append({
-                "vehicle_id": v.vehicle.id or None,
-                "trip_id": v.trip.trip_id or None,
-                "route_id": v.trip.route_id or None,
-                "lat": v.position.latitude if v.HasField("position") else None,
-                "lon": v.position.longitude if v.HasField("position") else None,
-                "timestamp": v.timestamp if v.timestamp else None,
-            })
+            positions.append(
+                {
+                    "vehicle_id": v.vehicle.id or None,
+                    "trip_id": v.trip.trip_id or None,
+                    "route_id": v.trip.route_id or None,
+                    "lat": v.position.latitude if v.HasField("position") else None,
+                    "lon": v.position.longitude if v.HasField("position") else None,
+                    "timestamp": v.timestamp if v.timestamp else None,
+                }
+            )
         return positions
-    
+
     def save_raw(self, feed):
-        self.raw_file_saver.save_json("position_updates",self.to_raw_dict(feed))
-    
+        self.raw_file_saver.save_json("position_updates", self.to_raw_dict(feed))
+
     def save_clean(self, feed):
         self.clean_file_saver.save_json("position_updates", self.to_clean_dict(feed))
+
 
 class TripUpdatesFetcher(RealtimeFetcher):
 
     def __init__(self, session, now=None, timeout=5):
         endpoint = f"https://gtfsapi.translink.ca/v3/gtfsrealtime?apikey={os.getenv('TRANSLINK_API_KEY')}"
-        super().__init__(endpoint,
-                         raw_dir="data/raw/realtime/trip_updates",
-                         clean_dir="data/clean/realtime/trip_updates",
-                         now=now,
-                         timeout=timeout,
-                         session=session)
+        super().__init__(
+            endpoint,
+            raw_dir="data/raw/realtime/trip_updates",
+            clean_dir="data/clean/realtime/trip_updates",
+            now=now,
+            timeout=timeout,
+            session=session,
+        )
 
     def to_clean_dict(self, feed):
         trips = []
         for entity in feed.entity:
             if not entity.HasField("trip_update"):
                 continue
-            
+
             tu = entity.trip_update
             stop_updates = []
             for s in tu.stop_time_update:
-                stop_updates.append({
-                    "stop_id": s.stop_id,
-                    "arrival": s.arrival.time if s.HasField("arrival") else None,
-                    "departure": s.departure.time if s.HasField("departure") else None,
-                    "arrival_delay": s.arrival.delay if s.HasField("arrival") else None,
-                    "departure_delay": s.departure.delay if s.HasField("departure") else None
-                })
-            trips.append({
-                "trip_id": tu.trip.trip_id,
-                "route_id": tu.trip.route_id,
-                "stop_time_updates": stop_updates,
-            })
+                stop_updates.append(
+                    {
+                        "stop_id": s.stop_id,
+                        "arrival": s.arrival.time if s.HasField("arrival") else None,
+                        "departure": (
+                            s.departure.time if s.HasField("departure") else None
+                        ),
+                        "arrival_delay": (
+                            s.arrival.delay if s.HasField("arrival") else None
+                        ),
+                        "departure_delay": (
+                            s.departure.delay if s.HasField("departure") else None
+                        ),
+                    }
+                )
+            trips.append(
+                {
+                    "trip_id": tu.trip.trip_id,
+                    "route_id": tu.trip.route_id,
+                    "stop_time_updates": stop_updates,
+                }
+            )
         return trips
 
     def save_raw(self, feed):
-        self.raw_file_saver.save_json("trip_updates",self.to_raw_dict(feed))
-    
+        self.raw_file_saver.save_json("trip_updates", self.to_raw_dict(feed))
+
     def save_clean(self, feed):
         self.clean_file_saver.save_json("trip_updates", self.to_clean_dict(feed))
-    
+
 
 class AlertsFetcher(RealtimeFetcher):
 
     def __init__(self, session, now=None, timeout=5):
         endpoint = f"https://gtfsapi.translink.ca/v3/gtfsalerts?apikey={os.getenv('TRANSLINK_API_KEY')}"
-        super().__init__(endpoint,
-                         raw_dir="data/raw/realtime/service_alerts",
-                         clean_dir="data/clean/realtime/service_alerts",
-                         now=now,
-                         timeout=timeout,
-                         session=session)
+        super().__init__(
+            endpoint,
+            raw_dir="data/raw/realtime/service_alerts",
+            clean_dir="data/clean/realtime/service_alerts",
+            now=now,
+            timeout=timeout,
+            session=session,
+        )
 
     def to_clean_dict(self, feed):
         alerts = []
@@ -181,39 +203,53 @@ class AlertsFetcher(RealtimeFetcher):
 
             informed = []
             for i in alert.informed_entity:
-                informed.append({
-                    "trip_id": i.trip.trip_id or None,
-                    "route_id": i.route_id or None,
-                    "stop_id": i.stop_id or None,
-                })
+                informed.append(
+                    {
+                        "trip_id": i.trip.trip_id or None,
+                        "route_id": i.route_id or None,
+                        "stop_id": i.stop_id or None,
+                    }
+                )
 
-            alerts.append({
-                "cause": gtfs_realtime_pb2.Alert.Cause.Name(alert.cause),
-                "effect": gtfs_realtime_pb2.Alert.Effect.Name(alert.effect),
-                "header": alert.header_text.translation[0].text 
-                        if alert.header_text.translation else "",
-                "description": alert.description_text.translation[0].text
-                        if alert.description_text.translation else "",
-                "informed_entities": informed
-            })
-        
+            alerts.append(
+                {
+                    "cause": gtfs_realtime_pb2.Alert.Cause.Name(alert.cause),
+                    "effect": gtfs_realtime_pb2.Alert.Effect.Name(alert.effect),
+                    "header": (
+                        alert.header_text.translation[0].text
+                        if alert.header_text.translation
+                        else ""
+                    ),
+                    "description": (
+                        alert.description_text.translation[0].text
+                        if alert.description_text.translation
+                        else ""
+                    ),
+                    "informed_entities": informed,
+                }
+            )
+
         return alerts
 
     def save_raw(self, feed):
-        self.raw_file_saver.save_json("service_alerts",self.to_raw_dict(feed))
-    
+        self.raw_file_saver.save_json("service_alerts", self.to_raw_dict(feed))
+
     def save_clean(self, feed):
         self.clean_file_saver.save_json("service_alerts", self.to_clean_dict(feed))
+
 
 def init_logging(now):
     logger = logging.getLogger("Realtime")
     logger.setLevel(logging.INFO)
     fh = logging.FileHandler(f"data/runs/realtime_{now}.log")
     fh.setLevel(logging.INFO)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     fh.setFormatter(formatter)
     logger.addHandler(fh)
     return logger
+
 
 def run(timestamp=None):
     now = timestamp or datetime.now().strftime("%Y-%m-%dT%H-%M")
@@ -224,14 +260,15 @@ def run(timestamp=None):
     fetchers = [
         PositionsFetcher(session=session, now=now),
         TripUpdatesFetcher(session=session, now=now),
-        AlertsFetcher(session=session, now=now)
+        AlertsFetcher(session=session, now=now),
     ]
 
     for f in fetchers:
         logger.info(f"Running {f.__class__.__name__}")
         f.run()
-        
+
     logger.info("Run complete.")
+
 
 if __name__ == "__main__":
     run()

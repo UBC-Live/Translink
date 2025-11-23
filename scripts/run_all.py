@@ -5,4 +5,3 @@ from datetime import datetime
 now = datetime.now().strftime("%Y-%m-%dT%H-%M")
 fetch_static(now)
 fetch_realtime(now)
-
