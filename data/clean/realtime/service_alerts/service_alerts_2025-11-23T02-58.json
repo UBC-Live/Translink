@@ -1,0 +1,2806 @@
+[
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "MODIFIED_SERVICE",
+    "header": "Expo Line service pattern change at Sapperton Station and Braid Station started on February 25, 2024. Please follow signs to ensure you're boarding from the correct platform.",
+    "description": "Customers travelling on Expo Line to Production Way-University and Lougheed Town Centre stations from Columbia Station should plan for an extra 12 minutes of travel time. Some transfers may be required at Braid Station to continue towards Production Way-University Station.\r\n\nFrequency daily until 9:30 PM:\r\nExpo Line trains between Waterfront Station and Braid Station will operate every 6 minutes.\r\nExpo Line trains to and from Production Way station will operate every 12 minutes.\r\n\nAfter 9:30 PM Expo Line trains to and from Production Way station will operate every 12 minutes. Trains will no longer terminate at Braid Station.\r\n\nExpo Line trains between Waterfront Station and King George Station will operate at regular frequency on all days.\r\n\nMillennium Line and Canada Line are unaffected.\r\n\nThis construction is expected to last approx. 2 years.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8578"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8580"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8579"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8577"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Prior to 5:30 AM weekdays, 6:00 AM Saturdays, and 7:30 AM Sundays & Holidays, the Cordova Street entrance to Waterfront Station is closed.",
+    "description": "\n\r\nDuring those times, Canada Line customers should enter Waterfront via the entrance on Granville at Hastings.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11303"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11302"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "UPDATE: The west Park and Ride facility at Mission City Station (WCE) is now open. Finishing work continues on the last 1/3 of the lot, but 2/3 of the spots are open and available to the public.",
+    "description": "\nThe west Park and Ride facility at Mission City Station (WCE) is undergoing resurfacing work until further notice and parking in the area may be limited until the work is complete.\r\n\nCustomers may want to build extra time in their commute to find alternate parking as needed.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6770",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "An additional $5 YVR Airport AddFare applies to some eastbound trips starting from YVR Airport, Sea Island Centre, or Templeton Stations, and ending at any station from Bridgeport Station onwards.",
+    "description": "\nAddFare is added to the following fare types (including concession fares):\r\n\n- Single-use tickets and DayPasses purchased from YVR Airport, Sea Island Centre, and Templeton stations\r\n\n- Compass Card Stored Value trips\r\n\n- Tap to Pay (e.g., contactless Interac Debit, American Express, Mastercard, and Visa credit cards along with Apple Pay, Google Pay, and Samsung Pay.)\r\n\n- YVR Airport AddFare is automatically deducted from the contactless card or the Stored Value on a Compass Card. \r\n\nFor more information, including which trips and fare types are exempt from the YVR AddFare, please visit: \r\n",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11301"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11297"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11299"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11300"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11298"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11296"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Due to ongoing maintenance, street level gate at Expo Line Sapperton Station needs to be operated manually. This may cause a delay to entering the station at the start of service. We apologize for the inconvenience this may cause.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8580"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8579"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "Starting July 21, 2025, the elevator at Expo Line 22nd Street Station from the entrance to the Waterfront platform will be temporarily out of service due to replacement. ",
+    "description": "Customers who normally get off at 22nd Street and use this elevator will need to stay on the train and get off at Edmonds Station and follow signs for Platform 2 and board any train headed back to 22nd Street Station.\r\n\nCustomers who normally board trains headed to Waterfront at 22nd Street Station will need to follow directional signs to Platform 2 and board any train and disembark at New Westminster Station then follow signs to Platform 1 and board any train to continue toward Waterfront Station.\r\n\nFull project details can be found in the URL Link below.\r\n\nCall the Customer Information team at 604.953.3333 if you have any questions or require further assistance.\r\n\n",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8052"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8065"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 61617 Westbound United Blvd @ King Edward St has been temporarily moved east, before the entrance of Value Village.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6666",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "7224",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "Starting October 21, 2025, the elevator from Beatty St entrance to concourse & platform level at Expo Line Stadium-Chinatown Station is temporarily out of service until early 2026, due to replacement. ",
+    "description": "Elevator access to the Lost Property office is available via the Keefer Plaza elevator and station entrance. Follow the Expo Boulevard detour information in the URL link below and connect to Keefer Plaza using Abbott Street. \r\n\nAlternate options are available to customers wishing to access the station via the Beatty Street or Expo Boulevard entrances by connecting with routes #5 and #23.\r\n\nPlease allow an extra 20 minutes of travel time to complete detours, as required.\r\n\nFull project details can be found in the URL Link below.\r\n\nCall the Customer Information team at 604.953.3333 if you have any questions or require further assistance.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8042"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8075"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Update: Stop 58564 Northbound 208 St @ 47 Ave is temporarily closed from Monday, October 27 to Friday, December 5 from 7:00 AM to 5:00 PM daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "34045",
+        "stop_id": "8952"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "Starting November 4, 2025, the single elevator at Expo Line Waterfront SkyTrain Station will be temporarily out of service until Spring 2026, due to replacement.",
+    "description": "\nCustomers transferring between modes of transit or wishing to board the Expo Line at Waterfront Station have two detour options that connect customers with Expo Line at Granville SkyTrain Station instead. \r\n\nPlease allow an additional 20-25 minutes of trip time to complete detours as required.\r\n\nElevators for Canada Line, SeaBus, and West Coast Express will remain in service; however, customers will not be able to connect to the Expo Line and must connect at Granville SkyTrain Station instead.\r\n\nFull project details, along with detailed detour options can be found in the URL Link below.\r\n\nCall the Customer Information team at 604.953.3333 if you have any questions or require further assistance.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8039"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8078"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "UPDATE: Stop 54170 Eastbound E 3rd St @ St. Patricks Ave is temporarily closed from Wed Oct 29 to Wed Nov 26 from 7:00 AM to 5:00 PM daily (weekdays only) due to construction.",
+    "description": "\nAffected routes:\r\n228",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6676",
+        "stop_id": "4215"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53130 Northbound Glenayre Dr @ Valour Dr is temporarily closed from Mon Oct 27 to Tue Nov 25 from 7:00 AM to 7:00 PM daily (Weekdays only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30043",
+        "stop_id": "3163"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53202 Southbound Glenayre Dr @ Valour Dr is temporarily closed from Mon Oct 27 to Tue Nov 25 from 7:00 AM to 9:00 PM daily (Weekdays Only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30043",
+        "stop_id": "3236"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53129 Northbound Glenayre Dr @ Mount Royal Dr is temporarily closed from Mon Oct 27 to Tue Nov 25 from 7:00 AM to 7:00 PM daily (Weekdays Only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30043",
+        "stop_id": "3162"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56808 Northbound Gilbert Rd @ Bamberton Dr is temporarily closed from Mon Oct 27 through Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": "6873"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53201 Southbound Glenayre Dr @ Angela Dr is temporarily closed Mon Oct 27 to Tue Nov 25 from 7:00 AM to 7:00 PM, weekdays only, due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30043",
+        "stop_id": "3235"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "UPDATE: Stop 55416 Northbound King George Blvd @ 80 Ave has temporarily moved to stop 55417 Northbound King George Blvd @ 81 Ave from Tue Oct 28 through Wed Dec 3, due to construction. Stop is open on Sundays. ",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "37808",
+        "stop_id": "5469"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6705",
+        "stop_id": "5469"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6720",
+        "stop_id": "5469"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "The 407 Gilbert departing from Stop 56958 northbound Offramp Knight St Bridge @ SE Marine Dr weekdays @ 12:58am, will now leave 4 minutes later @ 1:02am. Effective October 27.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 61113 Westbound E 33 Ave @ Fleming St is closed beginning Monday October 27. Please use new stop 62030 on other side of Argyle St.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "11201",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "159 Braid Stn trip leaving Coquitlam Stn at 5:04pm on weekdays will now leave 1 minutes later at 5:05pm beginning Tuesday October 28.",
+    "description": "Affected trips:\r\nleaving Coquitlam Central Station @ Bay 1 at 5:04 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14696601",
+        "route_id": "6666",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "160 Port Coq Stn trip leaving Kootenay Loop at 3:59pm on weekdays will now leave 2 minutes earlier at 3:57pm beginning Tuesday October 28.",
+    "description": "Affected trips:\r\nleaving Kootenay Loop @ Bay 2 at 3:59 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14696789",
+        "route_id": "6667",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 55182 Southbound 80 St @ Ladner Trunk Rd is closed beginning Wed Oct 29",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6822",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "110 Lougheed Stn departing Metrotown Stn Bay 13 weekdays @ 9:00am will leave 4 minutes later @ 9:04am. Effective October 30.",
+    "description": "Affected trips:\r\nleaving Metrotown Station @ Bay 13 at 9:00 am",
+    "informed_entities": [
+      {
+        "trip_id": "14690082",
+        "route_id": "6646",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 55701 northbound 140 St @ 88 Ave is back in service effective November 3.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6708",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6709",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 55724 southbound 140 St @ 92 Ave is back in service effective November 3.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6708",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6709",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "19 Kingsway to Stanley Park leaving Metrotown Stn at 5:07am on weekdays will now leave 2 minutes earlier at 5:05am beginning Monday Nov 3.",
+    "description": "Affected trips:\r\nleaving Metrotown Station @ Bay 2 at 5:05 am",
+    "informed_entities": [
+      {
+        "trip_id": "14679530",
+        "route_id": "6624",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "25 King Edward to UBC leaving Nanaimo Stn at 5:16am on weekdays will now leave 2 minutes later at 5:18am beginning Monday Nov 3.",
+    "description": "Affected trips:\r\nleaving Westbound E 22 Ave @ Boundary Rd at 5:09 am",
+    "informed_entities": [
+      {
+        "trip_id": "14681965",
+        "route_id": "6627",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "25 King Edward to Brentwood Stn leaving UBC at 6:01am will now leave 1 minute later at 6:02am beginning Monday Nov 3.",
+    "description": "Affected trips:\r\nleaving UBC Exchange @ Bay 6 at 6:02 am",
+    "informed_entities": [
+      {
+        "trip_id": "14681813",
+        "route_id": "6627",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 55350 Westbound Fraser Hwy at 176 St has temporarily moved to the east side of 176 St from October 31 to December 1, due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6738",
+        "stop_id": "11817"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "EXTENDED: Stop 55546 Southbound 132 St @ 64 Ave is temporarily closed through Fri Nov 28 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6821",
+        "stop_id": "5601"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Burrard Station trip leaving Underwood Ave & Evelyn St at 9:53am on weekdays will now leave 2 minutes earlier at 9:51am beginning Monday November 10.",
+    "description": "Affected trips:\r\nleaving Northbound Underwood Ave @ Evelyn St at 9:53 am",
+    "informed_entities": [
+      {
+        "trip_id": "14701183",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley trip leaving Burrard Station at 9:49am on weekdays will now leave 2 minutes earlier at 9:47am beginning Monday November 10.",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 9:49 am",
+    "informed_entities": [
+      {
+        "trip_id": "14701144",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "DETOUR",
+    "header": "256 Whitby Estates detour from Tue Nov 4 to Tue Dec 30 from 7:30 AM to 5:30 PM weekdays only. Regular route to Marine Dr at 21 St, then 21 St, resume regular route due to construction.",
+    "description": "\nAffected stops:\r\n54617 Westbound Marine Dr @ 21 St\r\n54618 Westbound Marine Dr @ 22 St\r\n\nTemporary Stop: NB 21 St at Esquimalt Ave",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "10232",
+        "stop_id": "4669"
+      },
+      {
+        "trip_id": null,
+        "route_id": "10232",
+        "stop_id": "4670"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 59414 Southbound 208 St @ 76 Ave is temporarily closed from Mon Nov 17 to Thu Nov 27 from 7:00 AM to 5:00 PM daily due to construction.",
+    "description": "Affected routes:\r\n595",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "12940",
+        "stop_id": "12194"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "DETOUR",
+    "header": "256 Park Royal detour from Tues Nov 4 to Tue Dec 30, 7:30am to 5:30pm weekdays only. Regular route to 21st St & Gordon, then 21st St, Marine, resume regular route due to road block.",
+    "description": "Temporary stop: 21st St at Fulton Ave.\r\n\nAffected stops:\r\n54595 Eastbound Marine Dr @ 22 St",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "10232",
+        "stop_id": "4647"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 57426 Eastbound 3rd Ave @ 66A St is temporarily closed Mon Nov 10 to Wed Dec 10, from 7:00 AM to 7:00 PM  Daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6741",
+        "stop_id": "7499"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6844",
+        "stop_id": "7499"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 51452 Westbound Canada Way @ 4800 Block is back in service beginning Mon, Nov 10.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6649",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 51396 Eastbound Canada Way @4800 Block is back in service beginning Thu, Nov 6.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6649",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 56821 Northbound Gilbert Rd @ Azure Rd is back in service beginning Mon Nov 10",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 51604 Southbound Rupert St @ School Ave has temporarily moved 50 meters south from Friday, November 7 to Monday, November 24 from 6:30 AM to 3:30 PM daily due to construction. Weekdays only.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6628",
+        "stop_id": "1616"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 51640 Southbound Joyce St @ Euclid Ave has temporarily moved 50 meters south from Friday, November 7 to Monday, November 24 from 6:30 AM to 3:30 PM due to construction. Weekdays only. ",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6628",
+        "stop_id": "1652"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6629",
+        "stop_id": "1652"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6633",
+        "stop_id": "1652"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56504 Southbound No. 1 Rd @ Springfield Dr is temporarily closed from Wed Nov 12 through Wed Nov 26 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6722",
+        "stop_id": "6565"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "STOP_MOVED",
+    "header": "Stop 55437 Southbound King George Blvd @ 108 Ave has temporarily moved south to temp stop at 107A Ave from Wed Nov 12 through Wed Nov 26.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6705",
+        "stop_id": "9926"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6834",
+        "stop_id": "9926"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 59051 Westbound Williams Rd @ Pigott Dr is temporarily closed from Wed Nov 12 to Wed Nov 26 from 9:00 AM to 3:00 PM on weekdays only due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6828",
+        "stop_id": "9573"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53301 Eastbound Lougheed Hwy @ Douglas Rd is temporarily closed from Wed Nov 12 through Sat Dec 6 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6841",
+        "stop_id": "10222"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 55379 Westbound 16 Ave @ 160 St is temporarily closed from Thu Nov 13 to Sat Dec 12  due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6705",
+        "stop_id": "5432"
+      },
+      {
+        "trip_id": null,
+        "route_id": "7321",
+        "stop_id": "5432"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 54908 EB 96 Ave FS 118 St is temporarily closed beginning Monday November 10.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6700",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6702",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6718",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "616 Ladner Exchange detour from 2:00 PM to 9:00 PM on Thursday, November 27. Regular route to 47a Ave & Garry St, then continue 47a Ave, Ladner Trunk Rd, then resume regular route (Omit Ladner Village) due to special event.",
+    "description": "\n\r\nSpecial Event: Ladner Village Market\r\n\n\r\nAffected stops:\r\n58257 Eastbound 48 Ave @ Laidlaw St",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6823",
+        "stop_id": "10181"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53384 Westbound Brunette Ave @ Marmont St is temporarily closed from Mon Nov 17 through Fri Nov 28 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6661",
+        "stop_id": "11651"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6664",
+        "stop_id": "11651"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "Starting July 14, 2025, the elevator at Expo Line Nanaimo Station from the entrance to platform 1 will be temporarily out of service due to replacement.",
+    "description": "\n\r\nCustomers who normally get off at Nanaimo Station and use this elevator will need to stay on the train and get off at Commercial-Broadway Station; transfer across platforms and board any train headed back to Nanaimo Station. \r\n\nCustomers who normally board trains headed to Waterfront at Nanaimo Station will need to follow directional signs to Platform 2; board any train and disembark at 29th Avenue Station; transfer across the platform and catch a Waterfront-bound train.\r\n\nPlease allow 15 minutes extra trip time to complete detours as required.\r\n\nWork is expected to take about four months.\r\n\nFull project details can be found in the URL Link below.\r\n\nCall the Customer Information team at 604.953.3333 if you have any questions or require further assistance.\r\n",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8045"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8072"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50478 Northbound Cambie St @ W 18 Ave is temporarily closed from Sat Nov 22 through Fri Nov 28 due to construction.",
+    "description": "Affected routes:\r\nN15\r\n15\r\n33",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "11201",
+        "stop_id": "10810"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6621",
+        "stop_id": "10810"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6831",
+        "stop_id": "10810"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56887 Eastbound Cambie Rd @ 10200 Block is temporarily closed from Fri Nov 14 to Fri Dec 5, from 7:00 AM to 6:00 PM Daily (Weekdays only) due to construction.",
+    "description": "\n\r\nWeekdays only. ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6726",
+        "stop_id": "6952"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6728",
+        "stop_id": "6952"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6829",
+        "stop_id": "6952"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56933 Westbound Cambie Rd @ 10200 Block is temporarily closed from Fri Nov 14 to Fri Dec 5, from 7:00 AM to 6:00 PM Daily (Weekdays only) due to construction.",
+    "description": "\n\r\nWeekdays only. ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6726",
+        "stop_id": "6998"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6728",
+        "stop_id": "6998"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6829",
+        "stop_id": "6998"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 58598 Southbound Gilmore Ave @ Douglas Rd is temporarily closed from Mon Nov 17 to Fri Nov 28 from 9:00 AM to 3:00 PM daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6650",
+        "stop_id": "9010"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56435 Northbound No. 1 Rd @ Moresby Dr is temporarily closed from Mon Nov 17 to Wed Nov 26 from 6:30 AM to 5:00 PM daily (Weekdays Only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6722",
+        "stop_id": "6496"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56495 Southbound No. 1 Rd @ Moresby Dr is temporarily closed from Mon Nov 17 to Wed Nov 26 from 6:30 AM to 5:00 PM daily (Weekdays Only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6722",
+        "stop_id": "6556"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley leaving Burrard Station @ Bay 2 at 1:20 pm on Sun will now leave 1 minute earlier at 1:19 pm beginning Sun, Nov 23",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 1:20 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14701307",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley leaving Burrard Station @ Bay 2 at 1:50 pm on Sun will now leave 1 minute earlier at 1:49 pm beginning Sun, Nov 23",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 12:50 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14701302",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 52418 Southbound 6th St @ 15 Ave is temporarily closed from Tue Nov 18 through Fri Dec 19 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6645",
+        "stop_id": "2442"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6834",
+        "stop_id": "2442"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley leaving Burrard Station @ Bay 2 at 4:52 pm on Sun will now leave 2 minutes earlier at 4:50 pm beginning Sun, Nov 23",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 4:52 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14701295",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley leaving Burrard Station @ Bay 2 at 5:50 pm on Sun will now leave 1 minute earlier at 5:49 pm beginning Sun, Nov 23",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 5:50 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14701297",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley leaving Burrard Station @ Bay 2 at 7:21 pm on Sun will now leave 1 minute earlier at 7:20 pm beginning Sun, Nov 23",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 7:21 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14701316",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "210 Upper Lynn Valley leaving Burrard Station @ Bay 2 at 7:51 pm on Sun will now leave 1 minute earlier at 7:50 pm beginning Sun, Nov 23",
+    "description": "Affected trips:\r\nleaving Burrard Station @ Bay 2 at 7:51 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14701319",
+        "route_id": "6672",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 58186 Eastbound Foster Ave @ Aspen Street is temporarily closed beginning Saturday November 15th. ",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6665",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "28 Phibbs Exchange trip leaving Joyce Station @ Bay 2 at 5:42 pm on Sun will now leave 1 minute earlier at 5:41 pm beginning Sun, Nov 23.",
+    "description": "Affected trips:\r\nleaving Joyce Station @ Bay 2 at 5:42 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14683110",
+        "route_id": "6630",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Effective immediately Stop 60996 Northbound Cambie Street @  West 45 Ave is temporarily closed.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6621",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6831",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Effective immediately Stop 51001 Northbound Cambie Street @ West 46 Ave is back in service.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6621",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6831",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 57419 Southbound 56 St @ View Cres is temporarily closed Thu Nov 13 to Thu Nov 27  from 6:00 AM to 6:00 PM (weekdays only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "11696",
+        "stop_id": "7492"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6741",
+        "stop_id": "7492"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6742",
+        "stop_id": "7492"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6743",
+        "stop_id": "7492"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6843",
+        "stop_id": "7492"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6844",
+        "stop_id": "7492"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "360 White Rock Centre. A trip leaving Semiahmoo Secondary at 2:50pm has been added beginning Mon Nov 17 due to overcrowding.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "31816",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 59400 Eastbound David Ave @ Pipeline Rd is back in service beginning Mon, Nov 17.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "22638",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "30584",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 56938 Northbound Gilbert Rd @ Westminster Hwy is closed beginning Monday November 17. Please use new stop 62113 on other side of Westminster Hwy.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 62109 Westbound Westminster Hwy @ McMillan Way will be in service beginning Monday November 17th.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6728",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "9745",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "215 Indian River leaving Phibbs Exchange @ Bay 13 at 8:46 pm weekdays will now leave 2 minutes later at 8:48 pm beginning Mon Nov 17",
+    "description": "\nAffected trips:\r\nleaving Phibbs Exchange @ Bay 13 at 8:46 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14895778",
+        "route_id": "6780",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "215 Phibbs Exchange leaving Northbound Inlet Cres @ Indian River Dr at 9:01 pm weekdays will now leave 2 minutes later at 9:03 pm beginning Mon Nov 17",
+    "description": "\nAffected trips:\r\nleaving Northbound Inlet Cres @ Indian River Dr at 9:01 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14895823",
+        "route_id": "6780",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "214 Blueridge/Phibbs Exchange schedule changes beginning Mon, Nov 17. Please check TransLink.ca for specific schedule changes. ",
+    "description": "\nSome trips have been adjusted by 1 to 15 minutes to help improve connections at Phibbs Exchange.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6675",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "DETOUR",
+    "header": "UPDATE: 129 Patterson Station detour from Tue Nov 18 through Wed Dec 3. Regular route to Patterson Ave and Kingsway, then via Kingsway, Willingdon Ave, Beresford St, then resume regular route due to road block.",
+    "description": "\n\r\nService Stop 51159 (Eastbound Kingsway FS Patterson Ave)\r\n\nAffected stops:\r\n52585 Southbound Patterson Ave @ Kingsway\r\n52586 Patterson Station @ Bay 2",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6650",
+        "stop_id": "8443"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6650",
+        "stop_id": "2610"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "320 Fleetwood/Langley Centre detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. From Surrey Ctrl Stn, University Dr, right into bus loop, City Pkwy, 102, King George, 104, then resume regular route due to special event.",
+    "description": "\nSurrey Tree Lighting Festival\r\n\nAffected stops:\r\n55610 Eastbound 104 Ave @ University Dr",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5665"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "501 Langley Centre detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. From Surrey Ctrl Stn, University Dr, right into bus loop, City Pkwy, 102, King George, 104, then resume regular route due to special event.",
+    "description": "\nSurrey Tree Lighting Festival",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6737",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "509 Walnut Grove detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. From Surrey Ctrl Stn, University Dr, right into bus loop, City Pkwy, 102, King George, 104, then resume regular route due to special event (no stops missed)",
+    "description": "\nSurrey Tree Lighting Festival",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6739",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 51336 Northbound Knight St @ E 41 Ave has temporarily moved 50 metres north from Mon Nov 17 through Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6626",
+        "stop_id": "1347"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 51983 Eastbound E 49 Ave @ Victoria Dr is temporarily closed from 9:30 AM to 3:30 PM on Fri Nov 28 due to construction.",
+    "description": "Affected routes:\r\n49\r\n430",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6636",
+        "stop_id": "2000"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6730",
+        "stop_id": "2000"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 51248 Southbound Victoria Dr @ E 49 Ave is temporarily closed from 9:30 AM to 3:30 PM on Fri Nov 28 due to construction.",
+    "description": "Affected routes:\r\n20",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6625",
+        "stop_id": "1258"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56539 Eastbound Blundell Rd @ Gilbert Rd is temporarily closed from Mon Nov 24 to Fri Dec 5 from 8:00 AM to 6:00 PM daily due to construction.",
+    "description": "Affected routes:\r\n402",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6723",
+        "stop_id": "6600"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56538 Eastbound Blundell Rd @ Minler Rd is temporarily closed from Mon Nov 24 to Fri Dec 5 from 8:00 AM to 6:00 PM daily and weekdays only due to construction.",
+    "description": "Affected routes:\r\n402",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6723",
+        "stop_id": "6599"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56816 Northbound Gilbert Rd @ Blundell Rd is temporarily closed from Mon Nov 24 to Fri Dec 5 from 8:00 AM to 6:00 PM daily and weekdays only due to construction.",
+    "description": "Affected routes:\r\n407",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": "6881"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "STOP_MOVED",
+    "header": "Stop 61759 Northbound Burrard St @ Comox St has temporarily moved to Burrard at Nelson from 9:00 AM to 11:59 PM on Thu Nov 27 due to special event.",
+    "description": "Affected routes:\r\n2\r\n44",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6612",
+        "stop_id": "11881"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6635",
+        "stop_id": "11881"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 61649 New Westminster Station @ Bay 2 has temporarily moved 15 metres ahead from 9:00 AM to 3:00 PM on Wed Nov 26 due to construction.",
+    "description": "Affected routes:\r\n103",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6790",
+        "stop_id": "11714"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50930 Eastbound W Hastings St @ Seymour St is temporarily closed Sun Nov 23 to Sat Nov 29 from 9:00 PM to 5:00 AM, nightly, due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "16718",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6622",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6625",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6835",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6838",
+        "stop_id": "938"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "323 Newton Exchange detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. From Surrey Ctrl Stn via University Dr, right into bus loop, City Pkwy, 102 Ave, King George, 104 Ave, then resume regular route, due to special event (no stops missed)",
+    "description": "\nSpecial Event: Surrey Tree Lighting Festival ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6706",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "393 Newton Exchange detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. From Surrey Ctrl Stn via University Dr, right into bus loop, City Pkwy, 102 Ave, King George, 104 Ave, then resume regular route, due to special event (no stops missed)",
+    "description": "\nSpecial Event: Surrey Tree Lighting Festival ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6719",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "335 Surrey Central Station detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. Regular route to University Dr and 104 Ave, then via 104 Ave, City Pkwy in to Surrey Central Station, due to special event. ",
+    "description": "\nSpecial Event: Surrey Tree Lighting Festival\r\n\nAffected stops:\r\n55611 Southbound University Dr @ 104 Ave\r\n\n",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6712",
+        "stop_id": "5666"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "324 Newton Exchange detour from 3PM on Fri Nov 21 to end of service on Sun Nov 23. From Surrey Ctrl Stn via City Pkwy, 102 Ave, King George, 104 Ave, then resume regular route, due to special event (no stops missed)",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6707",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 52310 Westbound 8th Ave @ 19 St is temporarily closed from 7:00 AM to 5:00 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6662",
+        "stop_id": "2332"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 51179 Westbound E 41 Ave @ School Ave is temporarily closed from 7:00 AM to 3:00 PM on Wed Nov 26 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6633",
+        "stop_id": "1188"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "DETOUR",
+    "header": "249 Lonsdale Quay detour from Tue Nov 18 to Sat Dec 13 from start of service to end of service on weekdays. Regular route to W 3rd St at Chesterfield Ave then W 3rd St, Lonsdale Ave, Esplanade Ave, Rogers Ave then resume regular route due to road block.",
+    "description": "Affected stops:\r\n54419 Southbound Chesterfield Ave @ W 3rd St\r\n54420 Southbound Chesterfield Ave @ W 1st St",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "36799",
+        "stop_id": "4469"
+      },
+      {
+        "trip_id": null,
+        "route_id": "36799",
+        "stop_id": "4470"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "DETOUR",
+    "header": "502 Langley Centre detour from Thu Nov 27 to Sat Nov 29 from 7:00 AM to 5:00 PM daily. Regular route to King George at Fraser Hwy, then King George, 96 Ave, resume regular route due to construction.",
+    "description": "Affected stops:\r\n62012 Eastbound Fraser Hwy @ 140 St",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6738",
+        "stop_id": "13052"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50948 Eastbound E Hastings St @ Kamloops St is temporarily closed from 7:00 AM to 5:00 PM on Tue Nov 25 due to construction.",
+    "description": "Affected routes:\r\n14\r\n16",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "16718",
+        "stop_id": "956"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6622",
+        "stop_id": "956"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 54403 Southbound Mackay Ave @ W 21 St has temporarily moved 50 metres south from Tue Nov 25 through Wed Nov 26 due to construction.",
+    "description": "Affected routes:\r\n236",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6680",
+        "stop_id": "4452"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6762",
+        "stop_id": "4452"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53578 Westbound E 8th Ave @ William St is temporarily closed from Mon Nov 24 to Thu Dec 4 from 7:00 AM to 5:00 PM daily and weekdays only due to construction.",
+    "description": "Affected routes:\r\n128",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6662",
+        "stop_id": "3617"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50396 Eastbound W 4th Ave @ Balsam St is temporarily closed from 7:30 AM to 2:30 PM on Fri Nov 28 due to construction.",
+    "description": "Affected routes:\r\n4\r\n7\r\n14",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "16718",
+        "stop_id": "400"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6614",
+        "stop_id": "400"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6617",
+        "stop_id": "400"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 54465 Westbound W 15 St @ Chesterfield Ave is temporarily closed from Thu Nov 27 to Fri Nov 28 from 8:00 AM to 5:00 PM daily due to construction.",
+    "description": "Affected routes:\r\n240\r\n241",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6682",
+        "stop_id": "4515"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6683",
+        "stop_id": "4515"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 50865 Southbound Granville St @ W 70 Ave has temporarily moved 50 metres south from 7:00 AM to 3:30 PM on Sat Nov 29 due to construction.",
+    "description": "Affected routes:\r\n10",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6620",
+        "stop_id": "9135"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 54455 Eastbound W 15 St @ Mahon Ave is temporarily closed from 8:00 AM to 5:00 PM on Thu Nov 27 due to construction.",
+    "description": "Affected routes:\r\n240\r\n241",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6682",
+        "stop_id": "4505"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6683",
+        "stop_id": "4505"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 54466 Westbound W 15 St @ Mahon Ave is temporarily closed from 8:00 AM to 5:00 PM on Thu Nov 27 due to construction.",
+    "description": "Affected routes:\r\n240\r\n241",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6682",
+        "stop_id": "4516"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6683",
+        "stop_id": "4516"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 51474 Westbound W Georgia St @ Cardero St is temporarily closed Thu Nov 27 and Fri Nov 28 from 10:00 PM to 6:00 AM nightly due to construction.",
+    "description": "Affected routes:\r\n19\r\n240\r\n246\r\nN24",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6624",
+        "stop_id": "8643"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6682",
+        "stop_id": "8643"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6685",
+        "stop_id": "8643"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6837",
+        "stop_id": "8643"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "320 Langley Centre detour from 3:45 PM to 7:30 PM on Sun Nov 30. Regular route to 176 St at 58 Ave then 176 St, 56 Ave (Hwy 10), 180th St, 60th Ave then resume regular route due to special event.",
+    "description": "Affected stops:\r\n59590 Eastbound 58 Ave @ 176 St\r\n55982 Eastbound 58 Ave @ 176A St\r\n55269 Northbound 177B St @ 58 Ave\r\n55270 Northbound 177B St @ 59A Ave",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "6039"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5321"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5322"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "10188"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "320 Surrey Central Station detour from 3:45 PM to 7:30 PM on Sun Nov 30. Regular route to 60th Ave at 180th St then 180th St, 56 Ave (Hwy 10), Hwy 15 continue onto 176 St then resume regular route due to special event.",
+    "description": "Affected stops:\r\n55338 Westbound 60 Ave @ 180 St\r\n60661 Westbound 60 Ave @ 179 St\r\n55339 Southbound 177B St @ 59A Ave\r\n55340 Southbound 177B St @ 58A Ave\r\n59591 Westbound 58 Ave @ 177B St\r\n59795 Westbound 58 Ave @ 176A St",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "10189"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "10190"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "10614"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5391"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5392"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5393"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "342 Langley Centre detour from 3:45 PM to 7:30 PM on Sun Nov 30. Regular route to Hwy 10 & Hwy 15 then continue Hwy 10, then resume regular route due to special event.",
+    "description": "\nAffected stops:\r\n59590 Eastbound 58 Ave @ 176 St\r\n55982 Eastbound 58 Ave @ 176A St\r\n55258 Southbound 177B St @ 56A Ave",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "5310"
+      },
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "6039"
+      },
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "10188"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "342 Newton Exchange detour from 3:45 PM to 7:30 PM on Sun Nov 30. Regular route to Hwy 10 at 177B St then continue on Hwy 10 then resume regular route due to special event.",
+    "description": "Affected stops:\r\n55342 Northbound 177B St @ Hwy 10\r\n55268 Northbound 177B St @ 57 Ave\r\n59591 Westbound 58 Ave @ 177B St\r\n59795 Westbound 58 Ave @ 176A St\r\n59879 Southbound 175 St @ 58A Ave",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "10190"
+      },
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "10189"
+      },
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "12262"
+      },
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "5320"
+      },
+      {
+        "trip_id": null,
+        "route_id": "29038",
+        "stop_id": "5395"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 55356 Westbound Fraser Hwy @ 158 St has temporarily moved 90 meters East from Thu Nov 20 through Thu Dec 4 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5409"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6721",
+        "stop_id": "5409"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6738",
+        "stop_id": "5409"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 55676 Southbound 132 St @ 84 Ave is temporarily closed from 8:00 AM to 4:00 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6707",
+        "stop_id": "5731"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50198 Westbound W 41 Ave @ Granville St is temporarily closed from Sat Nov 22 and Sun Nov 23 from 7:00 AM to 7:00 PM daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6633",
+        "stop_id": "198"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 61480 Southbound No. 5 Rd @ Rice Mill Rd is temporarily closed from 7:00 AM to 5:00 PM on Wed Nov 26 due to construction.",
+    "description": "\nAffected routes:\r\n405",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6726",
+        "stop_id": "6770"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 60131 Eastbound 72 Ave @ 192 St is temporarily closed until further notice due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "31820",
+        "stop_id": "12428"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 56576 Westbound Blundell Rd @ Gilbert Rd has temporarily moved 50 metres west from Wed Nov 19 to Fri Dec 5 from 8:00 AM to 6:00 PM daily (Weekdays Only) due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6723",
+        "stop_id": "6637"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 60431 Westbound W 41 Ave @ Churchill St has temporarily moved further east to Stop 50284 Westbound 41 Ave @ Granville St on Sat Nov 22 & Sun Nov 23  from 7:00 AM to 7:00 PM daily due to construction.",
+    "description": "\n\r\nStop is shared with R4 41st Ave To UBC",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6633",
+        "stop_id": "12670"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50848 Westbound E Broadway @ St. George St is temporarily closed through Sun Nov 23 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6618",
+        "stop_id": "855"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6619",
+        "stop_id": "855"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6840",
+        "stop_id": "855"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6841",
+        "stop_id": "855"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Effective immediately Stop 62057 Westbound W 49th Avenue @ Columbia Street is temporarily closed.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6636",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Effective immediately Stop 51968 Eastbound W 49th Avenue @ Alberta Street is temporarily closed.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6636",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 53345 Southbound Westwood St @ Dewdney Trunk Rd has temporarily moved approximately 40 meters south from 7:00 AM to 5:00 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30039",
+        "stop_id": "3382"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30040",
+        "stop_id": "3382"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30041",
+        "stop_id": "3382"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "325 140 St to Newton Exch leaving Surrey Central Stn at 11:30pm on weekdays will now leave 2 minutes later at 11:32pm beginning Monday Nov 24.",
+    "description": "Affected trips:\r\nleaving Surrey Central Station @ Bay 7 at 11:30 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14711269",
+        "route_id": "6708",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 51468 Westbound Hastings St @ Ingleton Ave is temporarily closed from Fri Nov 21 to Fri Dec 19 from 8:30 AM to 5:30 PM daily on weekdays only due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6651",
+        "stop_id": "1480"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6667",
+        "stop_id": "1480"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6838",
+        "stop_id": "1480"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 58227 Eastbound St. Johns St @ Albert St is temporarily closed from 8:00 AM to 4:00 PM on Thu Nov 27 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30043",
+        "stop_id": "8845"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6667",
+        "stop_id": "8845"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 56853 Westbound Williams Rd @ Seacote Rd has temporarily moved 80 metres west, Tue Nov 25 to Fri Dec 5, from 8:00 AM to 5:00 PM weekdays only, due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "34543",
+        "stop_id": "6918"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 59059 Westbound Williams Rd @ Gilbert Rd is back in service beginning Mon Nov 24",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6828",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 59067 Westbound Williams Rd @ Lassam Rd is temporarily closed from Mon Nov 24 to Fri Nov 28 from 7:30 AM to 4:30 PM, daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6828",
+        "stop_id": "9581"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 56486 Westbound Westminster Hwy @ No 2 Rd is back in service beginning Mon Nov 24",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6722",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 55725 Southbound 140 St @ 90 Ave is back in service beginning Mon Nov 24",
+    "description": "\n325 Newton Exchange\r\n326 Guildford",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6708",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6709",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "186 Hampton Park returns to regular route via David Ave, Pipeline Dr, Robson Dr beginning Monday Nov 24.",
+    "description": "Temporary stop cancelled:\r\n58676 Northbound Genest Way @ David Ave\r\n\nStops back in service for 186 Hampton Park:\r\n61294 Eastbound David Ave @ Genest Way\r\n58818 Westbound Robson Dr @ Kenney St\r\n58817 Southbound Robson Dr @ Blackwater Pl",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30049",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "186 Coq Ctrl Ctn returns to regular route via Robson Dr, Pipeline Rd, David Ave beginning Monday Nov 24.",
+    "description": "Temporary stops cancelled:\r\n60564 Southbound Purcell Dr @ Robson Dr\r\n59567 Southbound Genest Way @ Dayanee Springs Blvd\r\n\nStops back in service for 186 Coq Ctrl Ctn:\r\n53944 Eastbound Robson Dr @ Purcell Dr\r\n53945 Eastbound Robson Dr @ Blackwater Pl\r\n62070 Eastbound Robson Dr @ Kenney St\r\n59399 Westbound David Ave @ Pipeline Rd\r\n61361 Westbound David Ave @ Genest Way",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30049",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 51173 Westbound Kingsway @ Lincoln Street is temporarily closed beginning Monday November 24.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6624",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6834",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 50191 Southbound Richards Street @ Georgia Street is temporarily closed beginning Monday November 24. Please use new stop 50190 @ Southbound Richards @ Dunsmuir.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6625",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 62061 Eastbound River Rd @ 8600 Blk will be in service beginning Mon, Nov 24.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6748",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 58774 Eastbound Kingsway Ave @ Tyner St and 58772 Eastbound Kingsway Ave at 1900 Block are back in service beginning Mon, Nov 24",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30041",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 56812 Northbound Gilbert Rd @ Francis Rd is back in service beginning Mon, Nov 24.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 51171 Westbound Kingsway @ Boundary Rd is temporarily closed beginning Mon Nov 24",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6624",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "6834",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "28 Phibbs Exchange trip leaving Joyce at 10:09 pm on weekdays will now leave 3 minutes earlier 10:06pm beginning Monday November 24th.",
+    "description": "Affected trips:\r\nleaving Joyce Station @ Bay 2 at 10:09 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14682908",
+        "route_id": "6630",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "R2 Marine Dr. to Park Royall trip leaving Phibbs Exchange at 10:38pm on weekdays will now leave 1 minute\nlater at 10:39pm beginning Monday November 24th. ",
+    "description": "Affected trips:\r\nleaving Phibbs Exchange @ Bay 6 at 10:38 pm",
+    "informed_entities": [
+      {
+        "trip_id": "14732433",
+        "route_id": "38311",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 58947 Westbound E 6th Ave @ Glenbrook Dr is temporarily closed from Mon Nov 24 to Tue Nov 25 from 8:00 AM to 3:00 PM daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6663",
+        "stop_id": "9441"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6796",
+        "stop_id": "9441"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "DETOUR",
+    "header": "236 Lonsdale Quay detour from Mon Nov 24-Fri Dec 5 from 6:30 AM-5:00 PM daily weekdays only. Regular route to MacKay Ave at W 17th St then MacKay Ave, Marine Dr, Lloyd Ave, Churchill Cres, MacKay Rd, Marine Dr then resume regular route due to road block.",
+    "description": "\n\r\nService Stop 54428 on Marine Dr and Mackay Ave\r\n\nAffected stops:\r\n54406 Southbound Lloyd Ave @ W 17 St",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6680",
+        "stop_id": "11708"
+      }
+    ]
+  },
+  {
+    "cause": "UNKNOWN_CAUSE",
+    "effect": "UNKNOWN_EFFECT",
+    "header": "Stop 59399 Westbound David Ave @ Pipeline Rd is back in service beginning Monday Nov 24. ",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "22638",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "30049",
+        "stop_id": null
+      },
+      {
+        "trip_id": null,
+        "route_id": "30584",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 54831 Southbound Howe St @ Robson St is temporarily closed from Mon Nov 24 at 6:00 PM to Tue Nov 25 at 7:00 AM due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6830",
+        "stop_id": "4883"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6833",
+        "stop_id": "4883"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6841",
+        "stop_id": "4883"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "Canada Line Track Maintenance on Sat, Nov 22 from 11:00 PM until end of service. Trains will single-track between Bridgeport and Richmond-Brighouse Stations. Please allow extra travel time. ",
+    "description": "\n\r\nThe effective headways during this work are:\r\n\nWaterfront Station - Bridgeport Station - 10 minutes\r\nBridgeport Station - Richmond-Brighouse Station - 20 minutes\r\nBridgeport Station - YVR Airport Station - 20 minutes \r\n\nThe last trains from Waterfront Stn will depart approximately 5 minutes later than normal timetable stated times. ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11289"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11291"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11293"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11295"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "12946"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "12947"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11294"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11292"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11290"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11288"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "Canada Line Track Maintenance on Sun, Nov 23 from 11:00 PM until end of service. Trains will single-track between Bridgeport and Richmond-Brighouse Stations. Please allow extra travel time. ",
+    "description": "\n\r\nThe effective headways during this work are:\r\n\nWaterfront Station - Bridgeport Station - 10 minutes\r\nBridgeport Station - Richmond-Brighouse Station - 20 minutes\r\nBridgeport Station - YVR Airport Station - 20 minutes \r\n\nThe last trains from Waterfront Stn will depart approximately 5 minutes later than normal timetable stated times. ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11289"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11291"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11293"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11295"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "12946"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "12947"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11294"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11292"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11290"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11288"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "Expo Line Track Maintenance on Sun, Nov 23 from 9:30 PM until end of service. Trains will single-track in both directions between Royal Oak Station and Edmonds Station. Platform 2 will be closed. Please board trains from Platform 1 at both stations. ",
+    "description": "Please allow for an extra 15-20 minutes of travel time when traveling between Royal Oak and Edmonds stations.\r\n\n\r\nExpo Line trains will operate Waterfront <-> King George/Production Way, stopping at Royal Oak Platform 1 and Edmonds Platform 1 in both directions. \r\n\n\r\nAdditional short-turn trains will operate Waterfront <-> Metrotown & Edmonds <-> King George / Production Way. \r\n\n\r\nSome trains will dwell longer than normal at Metrotown and 22nd Street Stations. \r\n\nThe Millennium Line will operate normally.\r\n\nAffected stops:\r\nRoyal Oak Station @ Platform 2\r\nEdmonds Station @ Platform 2",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8050"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8051"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "Expo Line Track Maintenance on Mon, Nov 24 from 9:30 PM until end of service. Trains will single-track in both directions between Royal Oak Station and Edmonds Station. Platform 2 will be closed. Please board trains from Platform 1 at both stations. ",
+    "description": "Please allow for an extra 15-20 minutes of travel time when traveling between Royal Oak and Edmonds stations.\r\n\n\r\nExpo Line trains will operate Waterfront <-> King George/Production Way, stopping at Royal Oak Platform 1 and Edmonds Platform 1 in both directions. \r\n\n\r\nAdditional short-turn trains will operate Waterfront <-> Metrotown & Edmonds <-> King George / Production Way. \r\n\n\r\nSome trains will dwell longer than normal at Metrotown and 22nd Street Stations. \r\n\nThe Millennium Line will operate normally.\r\n\nAffected stops:\r\nRoyal Oak Station @ Platform 2\r\nEdmonds Station @ Platform 2",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8051"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8050"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 55368 Westbound 104 Ave @ 146 St is temporarily closed from 7:00 AM to 5:00 PM on Fri Nov 28 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6704",
+        "stop_id": "5421"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50296 Westbound W 41 Ave @ Blenheim St is temporarily closed from Thu Nov 27 to Fri Nov 28 from 7:00 AM to 4:00 PM daily due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6612",
+        "stop_id": "299"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6633",
+        "stop_id": "299"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56834 Southbound Gilbert Rd @ Francis Rd is temporarily closed Mon Nov 24 to Mon Dec 8, from 7:00 AM to 5:00 PM daily, due to construction. ",
+    "description": "Affected routes:\r\n407",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": "6899"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 60349 Oakridge-41st Ave Station @ Bay 3 has temporarily moved 50 metres east from Fri Nov 21 at 9:00 AM to Sun Nov 23 at 6:30 PM due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "37810",
+        "stop_id": "12586"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6633",
+        "stop_id": "12586"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 53920 Northbound Lansdowne Dr @ David Ave is temporarily closed Tue Nov 25 to Fri Nov 28, from 7:00 AM to 5:00 PM due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30048",
+        "stop_id": "3961"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 61097 Eastbound W 16 Ave @ Willow St is temporarily closed from 9:00 AM to 1:00 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "11201",
+        "stop_id": "11209"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 54530 Westbound Montroyal Blvd @ Ranger Ave has temporarily moved east to the other side of Ranger Ave through Fri Nov 28 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6685",
+        "stop_id": "4582"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "The elevator at Joyce-Collingwood Station from the west entrance to the platform level is temporarily out of service beginning at 10:32am, Nov 21, due to repairs.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8047"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8070"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 50048 Westbound Davie St @ Burrard St has temporarily moved 25 metres West from 10:00 AM to 2:00 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6616",
+        "stop_id": "48"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 56812 Northbound Gilbert Rd @ Francis Rd is temporarily closed Mon Nov 24 to Mon Dec 8 from 7:00 AM to 7:00 PM daily, due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6727",
+        "stop_id": "6877"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "337 Fraser Heights detour until Sun Nov 23 from start of service to end of service. Board at Surrey Centre Bay 4, then City Pkwy, 102 Ave, King George Blvd, 104, then resume regular route due to special event.",
+    "description": "\nSurrey Tree Lighting Festival. No stops missed",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "17707",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "371 Scott Road Station detour until Sun Nov 23 from start of service to end of service. From Surrey Central, then City Pkwy, 102, King George, 104, University, then resume regular route due to special event.",
+    "description": "\nSurrey Tree Lighting Festival. No stops missed.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6818",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "373 Surrey Central Station detour until Sun Nov 23 end of service. Regular route to 104 and University, then 104, City Pkwy, then Surrey Central Stn due to special event.",
+    "description": "\nSurrey Tree Lighting Festival\r\n\nAffected stops:\r\n55611 Southbound University Dr @ 104 Ave",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6819",
+        "stop_id": "5666"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "373 Guildford detour until Sun Nov 23 end of service. From Surrey Central, then City Pkwy, 102, King George, 104, then resume regular route due to special event.",
+    "description": "\nSurrey Tree Lighting Festival. No Stops Missed.",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6819",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "STOP_MOVED",
+    "header": "Stop 50638 Eastbound Davie St @ Thurlow St has temporarily moved 35 metres west from 10:00 AM to 2:00 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6616",
+        "stop_id": "644"
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 54852 Eastbound River Rd @ Webster Rd is temporarily closed from 3:00 PM to 11:59 PM on Mon Nov 24 due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6748",
+        "stop_id": "4904"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "MODIFIED_SERVICE",
+    "header": "Expo Line Track Maintenance on Tues, Nov 25 from 11:30 PM until end of service. Trains will single-track in both directions between Royal Oak Station and Edmonds Station. Platform 2 will be closed. Please board trains from Platform 1 at both stations. ",
+    "description": "Please allow for an extra 15-20 minutes of travel time when traveling between Royal Oak and Edmonds stations.\r\n\n\r\nExpo Line trains will operate Waterfront <-> King George/Production Way, stopping at Royal Oak Platform 1 and Edmonds Platform 1 in both directions. \r\n\n\r\nAdditional short-turn trains will operate Waterfront <-> Metrotown & Edmonds <-> King George / Production Way. \r\n\n\r\nSome trains will dwell longer than normal at Metrotown and 22nd Street Stations. \r\n\nThe Millennium Line will operate normally.\r\n\nAffected stops:\r\nRoyal Oak Station @ Platform 2\r\nEdmonds Station @ Platform 2",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8050"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30053",
+        "stop_id": "8051"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "Elevator at Millennium Line Brentwood Station from the Lougheed Highway entrance to the concourse is temporarily out of service.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "30052",
+        "stop_id": "8759"
+      },
+      {
+        "trip_id": null,
+        "route_id": "30052",
+        "stop_id": "8750"
+      }
+    ]
+  },
+  {
+    "cause": "MAINTENANCE",
+    "effect": "OTHER_EFFECT",
+    "header": "Elevator at Canada Line Olympic Village Station from street level to concourse is temporarily out of service.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11277"
+      },
+      {
+        "trip_id": null,
+        "route_id": "13686",
+        "stop_id": "11276"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "371 Surrey Central Station detour until Mon Nov 23 to end of service. Regular route to University Dr and 104 Ave, then via 104 Ave, City Pkwy in to Surrey Central Station, due to special event.",
+    "description": "Affected stops:\r\n55611 Southbound University Dr @ 104 Ave",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6818",
+        "stop_id": "5666"
+      }
+    ]
+  },
+  {
+    "cause": "OTHER_CAUSE",
+    "effect": "DETOUR",
+    "header": "335 Newton Exchange detour beginning at 7:42 PM. Regular route from Surrey Central then University Dr, Bus Loop, City Parkway, 102 Ave, King George Blvd, 104 Ave, University Dr then resume regular route due to special event.",
+    "description": "\nNo stops missed. ",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "6712",
+        "stop_id": null
+      }
+    ]
+  },
+  {
+    "cause": "CONSTRUCTION",
+    "effect": "NO_SERVICE",
+    "header": "Stop 50930 Eastbound W Hastings St @ Seymour St is temporarily closed from Sun Nov 23 to Sun Nov 29 from 9:00 PM to 5:00 AM nightly due to construction.",
+    "description": "",
+    "informed_entities": [
+      {
+        "trip_id": null,
+        "route_id": "16718",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6622",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6625",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6835",
+        "stop_id": "938"
+      },
+      {
+        "trip_id": null,
+        "route_id": "6838",
+        "stop_id": "938"
+      }
+    ]
+  }
+]
