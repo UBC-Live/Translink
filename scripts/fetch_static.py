@@ -10,6 +10,18 @@ BASE_OUTPUT_DIR = "data/raw/static"
 
 
 def init_logging(now):
+    """
+    Initialize a logger for the static GTFS data download.
+
+    Creates a timestamped log file under `data/runs/` and configures
+    it to capture info-level events for the static GTFS download process.
+
+    Args:
+        now (str): Timestamp string used to name the log file.
+
+    Returns:
+        logging.Logger: Configured logger instance.
+    """
     logger = logging.getLogger("Static")
     logger.setLevel(logging.INFO)
     fh = logging.FileHandler(f"data/runs/static_{now}.log")
@@ -23,6 +35,25 @@ def init_logging(now):
 
 
 def run(timestamp=None):
+    """
+    Download and extract the GTFS static data feed.
+
+    This function:
+        1. Creates an output directory timestamped with the run time.
+        2. Downloads the GTFS static ZIP file from TransLink.
+        3. Validates the HTTP response.
+        4. Unzips the GTFS contents into the output directory.
+        5. Logs the progress and errors to a timestamped log file.
+
+    Args:
+        timestamp (str | None): Optional override for the timestamp used in
+            directory/log naming. If not provided, the current time is used.
+
+    Raises:
+        requests.RequestException: If the ZIP file cannot be downloaded.
+        zipfile.BadZipFile: If the downloaded file is not a valid ZIP.
+        Exception: For any other unexpected errors.
+    """
     now = timestamp or datetime.now().strftime("%Y-%m-%dT%H-%M")
     logger = init_logging(now)
     output_dir = os.path.join(BASE_OUTPUT_DIR, f"gtfs_static_{now}")
