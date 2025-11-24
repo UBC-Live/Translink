@@ -169,7 +169,7 @@ class RealtimeFetcher(ABC):
             2. parse protobuf feed
             3. save raw JSON
             4. save cleaned JSON
-        """ 
+        """
         raw = self.fetch_raw()
         feed = self.parse(raw)
         self.save_raw(feed)
@@ -183,6 +183,7 @@ class PositionsFetcher(RealtimeFetcher):
     Fetches vehicle positions, extracts latitude/longitude and trip metadata,
     and stores both raw and cleaned outputs.
     """
+
     def __init__(self, session, now=None, timeout=5):
         endpoint = f"https://gtfsapi.translink.ca/v3/gtfsposition?apikey={os.getenv('TRANSLINK_API_KEY')}"
         super().__init__(
@@ -236,6 +237,7 @@ class TripUpdatesFetcher(RealtimeFetcher):
 
     Extracts arrival/departure times, delays, and associated trip metadata.
     """
+
     def __init__(self, session, now=None, timeout=5):
         endpoint = f"https://gtfsapi.translink.ca/v3/gtfsrealtime?apikey={os.getenv('TRANSLINK_API_KEY')}"
         super().__init__(
