@@ -15,11 +15,12 @@ https://www.translink.ca/about-us/doing-business-with-translink/app-developer-re
 Example GTFS format: https://gtfs.org/getting-started/example-feed/
 
 - Returns data like bus stops, transit lines, etc. in CSV format.
-- Can be used to understand realtime data
+- Used to understand realtime data
   - routes.csv: route_id → route_short_name (bus number) → route_long_name (bus line name)
   - stops.csv: stop_id / stop_code → stop_name/stop_lat/stop_lon
   - stop_times: trip_id → arrival/departure time
 - Vehicle position entity mapped by tripId/routeId
+- "Refreshed" every week (Friday).
 
 ## Realtime data
 
